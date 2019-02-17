@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FlameX</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Categories">Categories</string>
+    <string name="Products">Products</string>
+    <string name="Product_Search">Product Search</string>
+    <string name="Admin_Access">Admin Access</string>
+    <string name="Reset_Filter">(Reset Filter)</string>
+    <string name="Reset">Reset</string>
+    <string name="Login">Flame Systems</string>
+    <string name="Signup">Signup</string>
+    <string name="Add_Category">Add Category</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Category_Name">Category Name</string>
+    <string name="Add_Products">Add Products</string>
+    <string name="Product_Name">Product Name</string>
+    <string name="Weight">Weight/Volume</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Price">Price</string>
+    <string name="Save">Save</string>
+    <string name="Name">Name</string>
+    <string name="password">Password</string>
+    <string name="userid">Username</string>
+    <string name="Barcode">Barcode</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSubtract">-</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonToggleSign">+/-</string>
+    <string name="buttonDecimalPoint">.</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonClearMemory">MC</string>
+    <string name="buttonAddToMemory">M+</string>
+    <string name="buttonSubtractFromMemory">M-</string>
+    <string name="buttonRecallMemory">MR</string>
+    <string name="buttonSquareRoot">√</string>
+    <string name="buttonSquared">x²</string>
+    <string name="buttonInvert">1/x</string>
+    <string name="buttonSine">sin</string>
+    <string name="buttonCosine">cos</string>
+    <string name="buttonTangent">tan</string>
+
+</resources>

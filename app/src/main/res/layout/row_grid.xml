@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <Button
+        android:text="Button"
+        android:textColor="#4F4F4D"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/list_buttons"
+        android:id="@+id/button"
+        android:clickable="false"
+        android:focusable="false"
+        />`
+
+</LinearLayout>

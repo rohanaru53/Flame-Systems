@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/updateinventory"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#F8F8F8"
+        android:orientation="horizontal"
+        android:layout_height="600dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Update Inventory"
+            android:textColor="@color/Black"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <AutoCompleteTextView
+            android:id="@+id/name"
+            android:singleLine="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Product_Name"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true">
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Quantity"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/name" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Quantity"
+            android:inputType="numberSigned"
+            android:layout_alignEnd="@+id/name" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/quantity"
+            android:layout_below="@+id/quantity"
+            android:layout_marginTop="10dp"
+            android:text="@string/Price"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/Price"
+            android:inputType="numberDecimal"
+            android:layout_alignEnd="@+id/quantity" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/save"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="69dp"
+            android:text="@string/Save"
+            app:bootstrapBrand="success"
+            app:roundedCorners="true"
+            android:layout_below="@+id/price"
+            android:layout_alignStart="@+id/price" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/reset"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="#D9534F"
+            android:text="@string/Reset"
+            android:textColor="#FFFFFF"
+            app:bootstrapBrand="danger"
+            app:roundedCorners="true"
+            android:layout_alignTop="@+id/save"
+            android:layout_alignEnd="@+id/textView1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/textView"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignStart="@+id/name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+<!-- From: file:/E:/Summer%20Internship/FlameX/app/src/main/res/layout/updateinventory.xml -->

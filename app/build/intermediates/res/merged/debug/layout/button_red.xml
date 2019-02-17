@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <Button
+        android:text="Button"
+        android:textColor="#292928"
+        android:textSize="15sp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/list_item_red"
+        android:id="@+id/button_red"
+        android:clickable="false"
+        android:focusable="false"
+        />
+
+</LinearLayout>
+<!-- From: file:/E:/Summer%20Internship/FlameX/app/src/main/res/layout/button_red.xml -->

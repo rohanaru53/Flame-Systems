@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/lib-auto"
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:id="@+id/relativelayout1"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dialog_round"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/mainlogo"
+            android:gravity="center"
+            android:layout_above="@+id/ruserid"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/ruserid"
+            app:hintTextApperance="@style/TextAppearence.App.TextInputLayout"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:hint="@string/userid"
+                android:textSize="30sp"
+                android:id="@+id/userid"
+                android:maxLines="1" android:singleLine="true"
+                android:textColorHint="#000000"
+                android:textColor="#212121"
+                android:drawableLeft="@drawable/user"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:id="@+id/rpassword"
+            android:layout_below="@+id/ruserid"
+            android:layout_marginBottom="8dp"
+            android:layout_alignStart="@+id/ruserid"
+            >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="@string/password"
+            android:textSize="30sp"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:maxLines="1" android:singleLine="true"
+            android:textColorHint="#000000"
+            android:textColor="#212121"
+            android:drawableLeft="@drawable/password"
+             />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:id="@+id/login"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#448AFF"
+            android:layout_below="@+id/rpassword"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/E:/Summer%20Internship/FlameX/app/src/main/res/layout/custom_dialog_login.xml -->

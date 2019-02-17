@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:id="@+id/bill"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+       >
+
+    </ListView>
+</LinearLayout><!-- From: file:/E:/Summer%20Internship/FlameX/app/src/main/res/layout/billhistory.xml -->

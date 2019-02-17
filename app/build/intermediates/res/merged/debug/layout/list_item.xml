@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="TextView"
+        android:textColor="@color/BlackEel"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="TextView"
+        android:textColor="@color/BlackEel"
+        android:paddingLeft="35dp"
+        android:layout_centerVertical="true"
+
+        android:layout_toEndOf="@+id/quant" />
+    <EditText
+        android:id="@+id/quant"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="TextView"
+        android:editable="true"
+        android:textColor="@color/BlackEel"
+        android:gravity="center"
+        android:singleLine="true"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:layout_marginStart="133dp"
+        android:layout_alignTop="@+id/discount"
+        android:layout_alignStart="@+id/name" />
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="50dp"
+        android:textColor="@color/BlackEel"
+        android:text="TextView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/price" />
+    <TextView
+        android:id="@+id/discountamt"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/BlackEel"
+        android:text="TextView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/amount"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/cancel"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/discount"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/discount"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/discountamt"
+        android:paddingRight="20dp"
+        />
+
+</RelativeLayout>
+
+<!-- From: file:/E:/Summer%20Internship/FlameX/app/src/main/res/layout/list_item.xml -->
